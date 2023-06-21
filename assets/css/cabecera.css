@@ -1,0 +1,25 @@
+.cabecera{
+    align-items: center;/*alinea en el centro de las x */
+    background: #f9f9f9;/*color de fondo de cabezera*/
+    display: flex;
+    justify-content: space-between;
+
+    /*LOS PADDING CENTRAN */
+    padding-left: 2rem; /*corre el objeto hacia la derecha*/
+    padding-right: 2rem; /*corre para la izq todo */
+}
+/*ahora debemos adaptar a otros formatos de pantalla*/
+@media screen and (min-width:0){
+    .cabecera{
+        padding: 0 1rem;
+        /*centra el contenido al achicar o agrandar*/
+        justify-content: center;
+    }
+}
+@media screen and (min-width:768px){
+    .cabecera{
+        padding: 0 5rem;
+        
+        justify-content: space-between;
+    }
+}

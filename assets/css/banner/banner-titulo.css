@@ -1,0 +1,25 @@
+.banner__titulo{
+    color: #fdfdfdfd; /* Color del texto en blanco */
+    font-family: Pacifico, cursive; /* Cambio de fuente a Pacifico o una fuente cursiva genérica */
+    font-size: 5.0625rem; /* Tamaño de la fuente */
+    position: absolute; /* Posicionamiento absoluto */
+    left: 50%; /* Alineación horizontal al centro */
+    text-shadow: 0 4px 4px rgba(0,0,0,0.75); /* Sombra del texto */
+    top: 50%; /* Alineación vertical al centro */
+    text-align: center; /* Alineación del texto al centro horizontal */
+    transform: translate(-50%, -50%); /* Desplazamiento del elemento */
+    width: 100%; /* Ancho del elemento al 100% del contenedor padre */
+}
+@media screen and (min-width:0) {
+    .banner__titulo{
+        font-size:3rem;
+        
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .banner__titulo{
+        font-size: 5.0625rem
+    }
+    
+}

@@ -1,0 +1,20 @@
+.menu__link{
+    /*color de fuente*/
+    color: #808080;
+    /*le damos espacio entre ellos */
+    margin-right: 1.25rem;
+    /*sacamos el subrayado*/
+    text-decoration: none;    
+}
+/*es una regla de CSS que se aplica cuando el cursor del mouse se 
+encuentra sobre un elemento con la clase "menu-link"*/
+/* El pseudo-selector ":hover" se utiliza para seleccionar
+ y aplicar estilos a un elemento cuando se está interactuando
+  con él a través del cursor.*/
+.menu__link:hover{
+text-decoration: underline;
+}
+.menu__link.activo{
+    color: #333;
+
+}

@@ -1,0 +1,22 @@
+.banner__imagen{
+    background: url('../../img/banner.png') no-repeat center / cover;
+       /*lo que hacemos es poner todo arriba para no tener que repetir*/
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;*/
+    /*dimensiones*/
+    width: 100%;
+    
+}
+@media screen and (min-width:0) {
+    .banner__imagen{
+        height: calc(100vh-51px)
+    }
+    
+}
+@media screen and (min-width:768px) {
+    .banner__imagen{
+        height:calc(100vh - 72px);
+    }
+    
+}

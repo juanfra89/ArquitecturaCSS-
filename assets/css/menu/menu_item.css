@@ -1,0 +1,6 @@
+.menu__item{
+    /*quitar la decoracion*/ 
+    list-style: none;
+    /*ahora necesitamos generar espacio entre link*/  
+ }
+ 
